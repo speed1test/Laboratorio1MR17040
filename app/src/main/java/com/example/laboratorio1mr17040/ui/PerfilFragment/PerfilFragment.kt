@@ -29,7 +29,7 @@ class PerfilFragment : Fragment() {
         boton1.setOnClickListener()
         {
             var texto : String = ""
-            if(nombre.text.equals("") || carnet.text.equals(""))
+            if(nombre.getText().toString().isEmpty()|| carnet.getText().toString().isEmpty())
             {
                 texto = "Detectamos datos sin rellenar"
             }

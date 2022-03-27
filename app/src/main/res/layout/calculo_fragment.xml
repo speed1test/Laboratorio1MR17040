@@ -5,9 +5,74 @@
     android:layout_height="match_parent"
     tools:context=".ui.CalculosFragment.CalculoFragment">
 
+    <EditText
+        android:id="@+id/editSalario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:translationY="100dp" />
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese su salario"
+        android:translationY="80dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculos:"
+        android:translationY="160" />
+
+    <TextView
+        android:id="@+id/varRenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Renta: N/A"
+        android:translationX="170"
+        android:translationY="180" />
+
+    <TextView
+        android:id="@+id/varIsss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ISSS: N/A"
+        android:translationX="170"
+        android:translationY="200" />
+
+    <TextView
+        android:id="@+id/varAfp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AFP: N/A"
+        android:translationX="170"
+        android:translationY="220" />
+
+    <TextView
+        android:id="@+id/varSeguroVida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seguro de Vida:"
+        android:translationX="170dp"
+        android:translationY="240dp" />
+
+    <TextView
+        android:id="@+id/varSalarioNeto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salario Neto: N/A"
+        android:translationX="170"
+        android:translationY="260" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:translationX="170"
+        android:translationY="280" />
 
 </FrameLayout>
