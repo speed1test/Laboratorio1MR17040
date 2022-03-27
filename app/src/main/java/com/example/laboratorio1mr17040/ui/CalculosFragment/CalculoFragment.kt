@@ -70,6 +70,7 @@ class CalculoFragment : Fragment() {
         }
         return resultado
     }
+    //funcion renta
     fun calcularRenta (salario : TextView) : Double
     {
         val salario : Double = convertirSalario(salario)
