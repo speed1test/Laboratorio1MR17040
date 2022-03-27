@@ -39,10 +39,10 @@ class CalculoFragment : Fragment() {
             }
             else
             {
-                isss.text = calcularIsss(salario).toString()
-                seguro.text = calcularSeguro(salario).toString()
-                afp.text = calcularAfp(salario).toString()
-                renta.text = calcularRenta(salario).toString()
+                isss.text = "ISSS: "+calcularIsss(salario).toString()
+                seguro.text = "Seguro de Salud: "+calcularSeguro(salario).toString()
+                afp.text = "AFP: "+ calcularAfp(salario).toString()
+                renta.text = "Renta: "+ calcularRenta(salario).toString()
 
             }
         }
