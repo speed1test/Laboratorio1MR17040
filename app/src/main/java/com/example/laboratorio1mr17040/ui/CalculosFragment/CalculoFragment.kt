@@ -24,7 +24,7 @@ class CalculoFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val vista : View = inflater.inflate(R.layout.perfil_fragment, container, false)
+        val vista : View = inflater.inflate(R.layout.calculo_fragment, container, false)
         val boton1 : Button = vista.findViewById(R.id.btnCalcular)
         val salario : TextView = vista.findViewById(R.id.editSalario)
         val isss : TextView = vista.findViewById(R.id.varIsss)
