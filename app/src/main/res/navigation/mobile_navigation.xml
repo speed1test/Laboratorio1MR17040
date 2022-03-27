@@ -22,4 +22,15 @@
         android:name="com.example.laboratorio1mr17040.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.laboratorio1mr17040.ui.PerfilFragment.PerfilFragment"
+        android:label="Perfil de Usuario"
+        tools:layout="@layout/perfil_fragment" />
+    <fragment
+        android:id="@+id/nav_calculus"
+        android:name="com.example.laboratorio1mr17040.ui.CalculosFragment.CalculoFragment"
+        android:label="Cálculos financieros"
+        tools:layout="@layout/calculo_fragment
+" />
 </navigation>

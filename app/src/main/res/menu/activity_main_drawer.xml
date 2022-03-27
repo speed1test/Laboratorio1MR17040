@@ -16,5 +16,13 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="Perfil de Usuario" />
+        <item
+            android:id="@+id/nav_calculus"
+            android:icon="@drawable/ic_baseline_local_atm_24"
+            android:title="Cálculos financieros" />
     </group>
 </menu>
